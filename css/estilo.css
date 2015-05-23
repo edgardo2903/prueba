@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+#logo { margin-left: 10%; padding-bottom: 35px; padding-top: 35px; width: 100%; background: url(../images/Logo.jpg); background-size: 100% 100%;}
+
+.encabezado {width: 80%; margin-left: 10%; background-color: #e9eaed; border-radius: 4px;}
+
+#nomina {border-radius: 6px; border: solid; width: 60%; margin-left: 20%; height: auto; margin-top: 3%;; text-align: center; background-color:#e9eaed; }
+
+.center {text-align: center;}
+
+.blanco{ color:	#F1EEDA; }
+
+.azul{ color: #049DBF; }
+
+.negro {color: black}
+
+.verde{ color: #1CB100; }
+
+.rojo{ color: #C94833; }
+
+.Crete-Round{ font-family: 'Crete Round', serif; }
+
+.letra {font-family: 'Black+Ops+One', serif}
+
+.grande{ font-size: 4em; }
+
+.lgrande {font-size: 3em;}
+
+.Mgrande {font-size: 300%;}
+
+.Bg {font-size: 500%;}
+
+.let_link { font-size: 2em; }
+
+.icono {font-size: 1.4em;}
+
+.vistfont {font-size: 1.2em;}
+
+.peq {font-size: 0.9em;}
+
+
+.margen_corto {margin-left: 6%;}
+
+.margen-cort {margin-left: 15%;}
+
+.margen_peq {margin-left: 4%;}
+
+.margen_medio {margin-left: 15px;}
+
+.espacio_derecha{ margin-right: 1em; }
+
+.espacio_der {margin-right: 5em;}
+
+.justify {text-align: justify;}
+
+.alinear-izq {text-align: left;}
+
+.alinear-der {text-align: right;}
+
+
+
+body{
+	margin:0px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	min-width:1000px;
+}
+
+#fond  {width: 100%;  background: url(../images/visita.png); background-size: 100% 100%;}
+
+.registros{
+	margin:auto;
+	width:1000px;
+	margin-top:20px;
+	border:1px solid #6F96DF;
+	height:auto;
+	padding:10px;
+}
+
+.formulario table tr td{
+	padding:10px;
+}
+.formulario table tr td input{
+	width:100%;
+	outline:none;
+
+}
+.formulario table tr td select{
+	width:100%;
+	height:30px;
+	outline:none;
+}
+.bien{
+	background-color:#3CBE34;
+	text-align:center;
+	font-size:14px;
+	color:#FFF;
+	padding:5px;
+}
+
+.error{
+    background-color: #BC1010;
+    padding: 8px 10px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+	font-size: 12px;
+    margin-left: 16px;
+    margin-top: 6px;
+    position: absolute;
+}
+h1 , input {text-align: center;}
+
+
+html, body {
+			height: 100%;margin: 0; padding: 0; overflow-x:hidden; margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;
+		}
+
+.modal-body td, .table-hover td, .table-hover th {text-align: center;}

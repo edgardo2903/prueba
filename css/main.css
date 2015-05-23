@@ -1,0 +1,225 @@
+/*body{ background: #c0c0ff; color: green; } Para determinar color de fondo y letra /*
+img{ width: 120px; height: 150px; } Para determinar tamaño de imagen*/
+
+/*Colores - Fondos - Paneles*/
+
+.azules {background-color: #04ABE8;}
+
+.se_rojo{ background-color: #C94833; }
+
+.se_blanc{ background-color: #DAD5B5; }
+
+.fondo {background: url(../images/fond3.jpg); background-size: 100% 100%;}
+
+.fondo_nav{background: url(../images/cielo_il.jpg); background-size: 100% 100%;}
+
+.bordes_redondos {border-radius: 6px;}
+
+.bordes{ border: 1px solid; }
+
+.no_lista li{ list-style-type: none; }
+
+.no_lista{ margin: 0px; padding: 0px; }
+
+.chat { width: auto; height: 100% }
+
+/*Alinear*/
+
+.center {text-align: center;}
+
+.quitar-float{ float: none; }
+
+.float-center {float: center;}
+
+.espacio-arriba { margin-top: 2px; }
+
+.espacio_arriba_big {margin-top: 20px;}
+
+.espacio-izq{ margin-left:  200px; }
+
+.espacio-abajo {margin-bottom: 60px;}
+
+.espacio_ab {margin-bottom: 50%;}
+
+.img2 {height: 30%; margin-bottom: 10%;vertical-align: top; }
+
+.padding_largo{ padding: 8px 80px; }
+
+.inline-block { float: none; display: inline-block; margin-right: -4px; }
+
+.inline-block2 { display: inline-block; }
+
+.vete-arrib{ vertical-align: top; }
+
+.centerV {vertical-align: center;}
+
+.vete_abajo {vertical-align: bottom; margin-top: }
+
+.posicion{position: absolute; margin-left: 6px;} 
+
+.parrafos {text-align: justify; margin-right: 20px; margin-left: 30px;}
+
+.particion{ width: 25%; display: inline-block; }
+
+.linea {background-color: red; width: 88%; padding-top: 1px; margin-left: 35px; }
+
+.margen_corto {margin-left: 6%;}
+
+.margen-cort {margin-left: 15%;}
+
+.margen_peq {margin-left: 4%;}
+
+.margen_medio {margin-left: 15px;}
+
+.espacio_derecha{ margin-right: 1em; }
+
+.espacio_der {margin-right: 5em;}
+
+.justify {text-align: justify;}
+
+.alinear-izq {text-align: left;}
+
+.alinear-der {text-align: right;}
+
+/*Fuentes*/
+
+
+.blanco{ color:	#F1EEDA; }
+
+.azul{ color: #049DBF; }
+
+.negro {color: black}
+
+.verde{ color: #1CB100; }
+
+.rojo{ color: #C94833; }
+
+.Crete-Round{ font-family: 'Crete Round', serif; }
+
+.letra {font-family: 'Black+Ops+One', serif}
+
+.grande{ font-size: 4em; }
+
+.lgrande {font-size: 3em;}
+
+.Mgrande {font-size: 300%;}
+
+.Bg {font-size: 500%;}
+
+.let_link { font-size: 2em; }
+
+.icono {font-size: 1.4em;}
+
+.vistfont {font-size: 1.2em;}
+
+.peq {font-size: 0.9em;}
+
+
+/*Graficos*/
+.ver {margin-left: 25%;}
+
+.table { padding: 40%;  border: solid;}
+
+.fila {border: solid; background-color: #7a8189; color: black;}
+
+.fila2 {border: solid; background-color: #EEE; color: black;}
+
+/*ID*/
+
+#todo {width: 100%;  background: url(../images/visita.png); background-size: 100% 100%;}
+
+#logo { padding-bottom: 35px; padding-top: 35px; width: 100%; margin-left: 0%; background: url(../images/Logo.jpg); background-size: 100% 100%;}
+
+#usuario {border-radius: 6px; border: solid; width: 60%; margin-left: 20%; margin-right: 30%; height: 45%; margin-top: 6%; text-align: center; background-color:#eeeeee; }
+
+#ingreso {border-radius: 6px; border: solid; width: 60%; margin-left: 20%; margin-right: 20%; height: auto; margin-top: 3%;; text-align: center; background-color:#25DCA3; }
+
+#nomina {border-radius: 6px; border: solid; width: 90%; margin-left: 5%; margin-right: 20%; height: auto; margin-top: 3%;; text-align: center; background-color:#25DCA3; }
+
+#mostrar {border-radius: 6px; border: solid; width: 80%; margin-left: 10%; margin-right: 20%; height: auto; margin-top: 3%;; text-align: center; background-color:#25DCA3; }
+
+#mostrar_salida {border-radius: 6px; border: solid; width: 60%; margin-left: 20%; margin-right: 20%; height: auto; margin-top: 3%;; text-align: center; background-color:#25DCA3; }
+
+#consulta {border-radius: 6px; border: solid; width: 60%; margin-left: 20%; margin-right: 20%; height: auto; margin-top: 4%;; text-align: center; background-color:#25DCA3; }
+
+#salida {border-radius: 6px; border: solid; width: 60%; margin-left: 20%; margin-right: 20%; height: auto; margin-top: 4%;; text-align: center; background-color:#25DCA3; }
+
+#btnSubmit {border: none; background-color: #F1EEDA; color: #1CB100; padding: 8px; margin: 5px; font-size: 1.5em; border-radius: 4px;}
+
+#verpdf { border: none; color: black; padding: auto; margin: 5px; font-size: 1.5em; border-radius: 4px;}
+
+.arriba {border: none; background-color: #F1EEDA; color: #1CB100; padding: 6px; margin: 5px; font-size: 1.5em; border-radius: 4px; margin-left: 80%}
+
+#menu { height: auto; width: 60%;}
+
+#busqueda { font-size: 1.8em; text-align: center; height: auto; float: center; width: 90%; margin-bottom: 5%; margin-left: 5%;}
+
+#salida {margin-left: 10%;}
+
+
+/*Etiquetas*/
+
+#mostrar_salida > table {margin-left: 10%;}
+
+
+
+a { color: #4A0C59; font-weight: bold; font-size: 1.1em; margin-top: 2px; margin-left: 10px; margin-right: 10px; text-decoration: none;}
+
+body{ font-family: 'Lato', sans-serif; }
+
+html, body {
+			height: 100%;margin: 0; padding: 0; overflow-x:hidden; margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px;
+		}
+
+img{ max-width: 100%; margin-top: 3%; height: auto; }
+
+
+label {display: inline-block; margin-left: 10px }
+
+input { border-radius: 6px; margin-bottom: 6px; display: inline-block; margin-top: 6px; margin-left: 10px; width: auto;text-align: center;}
+
+input [type="email"]:focus:invalid { border: 1px solid red; box-shadow: 0 0 5px red;}
+
+h1 {text-align: center;}
+
+th { text-align: center;}
+
+select {border: none; background-color: #F1EEDA; color: #1CB100; padding: 4px; margin: 5px}
+
+
+/*Botones*/
+
+
+.btnSelect { border: solid; background-color: #5E0000;  border-radius: 2px; }
+
+
+/* Para adaptar a diferentes pantallas*/
+
+@media screen and (max-width: 1100px ){#panel_interno {height: auto;} } 
+@media screen and (max-width: 800px ){#panel_interno {height: auto;} img {height: 20%; width: 20%}}
+@media screen and (max-width: 640px ){ #resolucion, #textoPr, #mi_pagina, #columna  {width : 100%; } 
+	li {display: inline-table;}
+	#panel_interno {height: auto;}
+	.let_link, .vistfont, .icono {font-size: 1em;}
+	img {height: 20%; width: 20%}
+	#ver_temas {width: 80%; }
+
+	}
+
+@media screen and (max-width: 400px ){#resolucion {width: 100%;} h1 {font-size: 1.5em;} a {font-size: 0.5em;}}
+
+
+/*MENU DERECHA*/
+
+/*custom font for text*/
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+/*CSS file for fontawesome - an iconfont we will be using. This CSS file imported contains the font-face declaration. More info: http://fortawesome.github.io/Font-Awesome/ */
+@import url(http://thecodeplayer.com/uploads/fonts/fontawesome/css/font-awesome.min.css);
+
+/*Basic reset*/
+* {margin: 0; padding: 0;}
+
+body {
+	background: #4EB889;
+	font-family: Nunito, arial, verdana;
+}
